@@ -1,0 +1,37 @@
+.education{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    h1{
+        font-size: 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-decoration: underline;
+    }
+   .schoolHeader{
+        font-size: 35px;
+        padding-left: 5%;
+        padding-top: 20px;
+
+    }
+    .extra{
+        font-size: 25px;
+        font-style: italic;
+        padding-left: 10%;
+        font-weight: 100;
+    }
+    .courseWork{
+        font-size: 25px;
+        padding-left: 5%;
+        padding-top: 20px;
+
+    }
+    .extraCoursework{
+        font-size: 20px;
+        padding-left: 10%;
+        font-weight: 100;
+    }
+}
