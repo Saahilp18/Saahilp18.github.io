@@ -7,6 +7,7 @@ import Education from "./Components/Education/education";
 import "./app.scss"
 import { useState } from "react";
 import Menu from "./Components/Menu/Menu";
+import Projects from "./Components/Projects/Projects";
 function App() {
   const [menuOpen,setMenuOpen] = useState(false);
   return (
@@ -22,6 +23,7 @@ function App() {
     <hr></hr>
     <br></br>
     <br></br>
+    <br></br>
     <Education/>
     <br></br>
     <br></br>
@@ -31,8 +33,24 @@ function App() {
     <br></br>
     <br></br>
     <br></br>
-
     <Portfolio/>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <hr></hr>
+    <br></br>
+    <br></br>
+    <br></br>
+    <Projects/>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <hr></hr>
+    <br></br>
+    <br></br>
+    <br></br>
     <Contact/>
   </div>
 </div>
