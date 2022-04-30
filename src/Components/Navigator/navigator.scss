@@ -68,6 +68,9 @@
         }
     }
     &.active{
+        a{
+            color:crimson;
+        }
         background-color: $nonActiveColor;
         color: $activeColor;
         .left{
