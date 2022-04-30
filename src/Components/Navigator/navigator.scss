@@ -68,6 +68,9 @@
         }
     }
     &.active{
+        border-bottom:3px;
+        border-bottom-style: solid;
+        border-bottom-color: crimson;
         a{
             color:crimson;
         }
