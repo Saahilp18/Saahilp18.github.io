@@ -19,9 +19,9 @@ export default function Projects(){
             <br></br>
             <br></br>
             <h2 className='projectName'>Athena</h2>
-            <h2 className='CScomponents'>Python, Google APIs -- Won best Google API application at the Rutgers Hackathon</h2>
-            <h2 className='desc'>As an LA, I have led several classes of students learning computer science in topics regarding the basics of 
-            data structures, object oriented programming, and searching/sorting methods</h2>
+            <h2 className='CScomponents'>Python (NLTK), Google APIs -- Won best Google API application at the Rutgers Hackathon</h2>
+            <h2 className='desc'>Created a project that would allow students to submit lengthy YouTube videos or articles and receive a short summary based of key words
+            inputted by the user. This project utilized Google Cloud Speech Recognition to create a transcript of the YouTube videos and the NLTK Python library for world analysis</h2>
         </div>
     )
 }
