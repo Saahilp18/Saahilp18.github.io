@@ -14,11 +14,8 @@ function App() {
 <div className="app">
   <Navigator  menuOpen = {menuOpen} setMenuOpen={setMenuOpen}/>
   <Menu className="menu" menuOpen = {menuOpen} setMenuOpen={setMenuOpen}/>
-  <div className>
+  <div className = "element">
     <Intro/>
-    <br></br>
-    <br></br>
-    <br></br>
     <br></br>
     <hr></hr>
     <br></br>

@@ -27,7 +27,6 @@ export default function Navigator({menuOpen, setMenuOpen}) {
                     <div className="itemContainer">
                         <Attachment className="icon"/>
                         <span ><a  href="assets/Resume.pdf" class="contact-button no-print" target="_blank" rel="noreferrer" itemprop="email">Resume</a></span>
-
                     </div>
                 </div>
                 <div className="right">

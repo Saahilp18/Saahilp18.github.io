@@ -1,5 +1,6 @@
 .app{
     height: 100vh;
+
     .sections{
         overflow-y: scroll;
         scrollbar-width: none;
@@ -20,3 +21,7 @@
         }
     }
 }
+//Remove scroll bar but keep functionality
+.app::-webkit-scrollbar { width: 0 !important }
+.app { overflow: -moz-scrollbars-none; }
+.app { -ms-overflow-style: none; }
