@@ -1,3 +1,9 @@
 $mainColor: #636CFD;
 $activeColor:crimson;
 $nonActiveColor:white;
+$width:768px;
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}

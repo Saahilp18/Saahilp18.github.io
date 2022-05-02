@@ -37,6 +37,9 @@
                 align-items: center;
                 display: flex;
                 margin-right: 30px;
+                @include mobile{
+                    display: none;
+                }
             }
             .icon{
                 font-size: 35px;

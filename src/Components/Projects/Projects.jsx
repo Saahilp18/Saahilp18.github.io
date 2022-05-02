@@ -13,7 +13,7 @@ export default function Projects(){
             <br></br>
             <br></br>
             <h2 className='projectName'>Snack Track</h2>
-            <h2 className='CScomponents'>Android Development, HTML, Java, Google APIs, Firebase</h2>
+            <h2 className='CScomponents'>Android Studio, HTML, Java, Google APIs, Firebase</h2>
             <h2 className='desc'>An application that stores the users eating habits. Firebase and Google APIs were implemented in this project to process images taken by the user
             and analyze the food item presented so that it could be stored in an accurate and efficient manor.</h2>
             <br></br>
