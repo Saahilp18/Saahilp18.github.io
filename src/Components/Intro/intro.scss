@@ -34,6 +34,15 @@
     max-width: 400px;
     margin: 0 15vw;
     padding-top: 25px;
+    a{
+        color: red;
+        display: none;
+        @include mobile{
+            flex-direction: row;
+            display: contents;
+            padding: 10px;
+        }
+    }
 }
     .left{
         flex:0.5;
