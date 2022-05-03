@@ -9,6 +9,24 @@
         flex-direction: column;
         align-items: center;
     }
+    .itemContainer{
+        color: red;
+        display: none;
+        @include mobile{
+            flex-direction: row;
+            display: contents;
+            padding: 10px;
+        }
+    }
+.iconContainer{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
     .left{
         flex:0.5;
         overflow: hidden;
