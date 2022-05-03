@@ -4,8 +4,6 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
     text-align-last: center;
 
     @include mobile{
@@ -26,7 +24,6 @@
     }
     .projectName{
         font-size: 32.5px;
-        padding-left: 10%;
         padding-top: 20px;
         @include mobile{
             padding-left: 5%;
@@ -40,7 +37,6 @@
         font-size: 22.5px;
         font-style: italic;
         font-weight: 100;
-        padding-left: 12.5%;
         @include mobile{
             padding-left: 5%;
             padding-right: 5%;
@@ -55,6 +51,7 @@
         font-size: 20px;
         padding-left: 15%;
         padding-right: 15%;
+        text-align: center;
       //  padding-left: 12.5%;
         font-weight: 100;
         @include mobile{

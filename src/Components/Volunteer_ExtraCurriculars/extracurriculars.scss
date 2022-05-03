@@ -3,8 +3,11 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
+  //  padding-left: 10%;
+ //   padding-right: 10%;
+    text-align: center;
+    text-align-last:center ;
+
     @include mobile{
         padding-left: 0;
         padding-right: 0;
@@ -25,7 +28,7 @@
     }
     .organization{
         font-size: 32.5px;
-        padding-left: 10%;
+      //  padding-left: 10%;
         padding-top: 20px;
         @include mobile{
             padding-top: 10px;
@@ -41,7 +44,7 @@
         font-size: 22.5px;
         font-style: italic;
         font-weight: 100;
-        padding-left: 12.5%;
+       // padding-left: 12.5%;
         @include mobile{
             padding-left: 5%;
             padding-right: 5%;
@@ -62,9 +65,9 @@
         @include mobile{
             align-items: center;
              font-size: 17.5px;
-             padding-right: 10%;
              padding-left: 5%;
              padding-right: 5%;
+             padding-top: 0%;
          }
     }
 
