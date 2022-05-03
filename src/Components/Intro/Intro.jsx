@@ -30,24 +30,39 @@ export default function Intro() {
                     <h3 ><span ref = {textRef}></span></h3>
                     <div className="iconContainer">
                     <div className="itemContainer">
+                        <div className="col">
                         <Person className="icon"/>
                         <span ><a  href="tel:7328232978" class="contact-button no-print" itemprop="email"> </a></span>
+                        <span>Email</span>
+                        </div>
                     </div> 
                     <div className="itemContainer">
+                    <div className="col">
                         <Mail className="icon"/>
                         <span ><a  href="mailto:saahilp18@gmail.com" class="contact-button no-print" target="_blank" rel="noreferrer" itemprop="email"> </a></span>
+                        <span>Phone</span>
+                    </div>
                     </div>
                     <div className="itemContainer">
+                        <div className="col">
                         <LinkedIn className="icon"/>
                         <span ><a  href="https://linkedin.com/in/patelsaahil" target="_blank" rel="noreferrer" class="contact-button no-print" itemprop="email"> </a></span>
+                        <span>LinkedIn</span>
+                        </div>
                     </div>
                     <div className="itemContainer">
-                        <GitHub className="icon"/>
-                        <span ><a  href="https://github.com/saahilp18" class="contact-button no-print" target="_blank" rel="noreferrer" itemprop="email"> </a></span>
+                            <div className="col">
+                            <GitHub className="icon"/>
+                            <span ><a  href="https://github.com/saahilp18" class="contact-button no-print" target="_blank" rel="noreferrer" itemprop="email"> </a></span>
+                                <span>GitHub</span>
+                        </div>
                     </div>
                     <div className="itemContainer">
+                        <div className="col">
                         <Attachment className="icon"/>
                         <span ><a  href="assets/Resume.pdf" class="contact-button no-print" target="_blank" rel="noreferrer" itemprop="email"> </a></span>
+                        <span>Resume</span>
+                    </div>
                     </div>
                     </div>
                 </div>

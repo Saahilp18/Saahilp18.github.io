@@ -18,14 +18,22 @@
             padding: 10px;
         }
     }
+    .col{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
 .iconContainer{
     width: 100%;
     padding-top: 10px;
     display: flex;
+    text-align: center;
+    font-size: 15px;
     justify-content: space-between;
     max-width: 400px;
-    margin: 0 auto;
-    padding: 10px 0;
+    margin: 0 15vw;
+    padding-top: 25px;
 }
     .left{
         flex:0.5;
