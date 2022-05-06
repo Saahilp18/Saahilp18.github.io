@@ -2,7 +2,7 @@ import "./navigator.scss"
 import {Mail,LinkedIn, GitHub,Attachment} from "@material-ui/icons"
 
 
-export default function Navigator({menuOpen, setMenuOpen}) {
+export default function Navigator({menuOpen, setMenuOpen,darkMode,setDarkMode}) {
     return (
         <div className={"navigator "+(menuOpen && "active")}>
             <div className="wrapper">
@@ -24,6 +24,7 @@ export default function Navigator({menuOpen, setMenuOpen}) {
                         <Attachment className="icon"/>
                         <span ><a  href="assets/Resume.pdf" class="contact-button no-print" target="_blank" rel="noreferrer" itemprop="email">Resume</a></span>
                     </div>
+
                 </div>
                 <div className="right">
                     <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>

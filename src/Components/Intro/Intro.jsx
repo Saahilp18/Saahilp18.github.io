@@ -10,7 +10,7 @@ export default function Intro() {
 
     useEffect(()=>{
         init(textRef.current, {
-            showCursor: true, strings:["Software Engineer", "Information Technology", "Web Applications"], backspeed: 60, backDelay: 1500,
+            showCursor: true, strings:["Software Engineer", "Information Technology", "Web Applications", "Developer"], backspeed: 60, backDelay: 1500,
         });
     },[]);
 
