@@ -10,7 +10,7 @@ export default function Portfolio(){
             <h2 className='company'>Oracle</h2>
             <h2 className='location'>Austin, TX</h2>
             <h2 className='companyInfo'>This summer, I will be apart of the Enterprise Engineering and Developer Tools team at Oracle. 
-            My time there will consist of working on cloud engineering and applications, endpoint and security and physical infrastructure.</h2>
+            My time there will consist of working on business operations, cloud engineering and apps, collaborations services, corporate apps, endpoint and security, internal builder tools, and physical infrastructure.</h2>
             <br></br>
             <br></br>
             <h2 className='company'>United Parcel Service (UPS)</h2>
