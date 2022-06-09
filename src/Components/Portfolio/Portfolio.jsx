@@ -18,10 +18,10 @@ export default function Portfolio(){
             <h2 className='companyInfo'>I utilized RSA Encryption to encrypt 70 applications and their clear text passwords and connection strings. I also audited 7 of the UPS load balancers, fixing and cleaning entries that needed to have their listening ports changed or shut down. Among the plethora of tasks I've completed at UPS I also used Grafana Dashboards and Prometheus to analyze the CPU, memory, and storage usage of 180 servers across 12 web farms.</h2>
             <br></br>
             <br></br>
-            <h2 className='company'>Learning Assistant Program</h2>
+            <h2 className='company'>Learning Assistant Program - Data Structures</h2>
             <h2 className='location'>Rutgers University • September 2021 - Present</h2>
-            <h2 className='companyInfo'>As an LA, I have led several classes of students learning computer science in topics regarding the basics of 
-            data structures, object oriented programming, and searching/sorting methods.</h2>
+            <h2 className='companyInfo'>As an LA, I have led several classes of students learning computer science in topics regarding
+            data structures, object oriented programming, graph theory, trees, and searching/sorting methods.</h2>
         </div>
     )
 }
