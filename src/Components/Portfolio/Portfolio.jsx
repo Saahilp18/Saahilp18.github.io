@@ -7,6 +7,10 @@ export default function Portfolio(){
         <div className="portfolio" id = "portfolio">
             <h1>Experiences</h1>
             <br></br>
+            <h2 className='company'>Amazon</h2>
+            <h2 className='location'>Austin, TX</h2>
+            <br></br>
+            <br></br>
             <h2 className='company'>Oracle</h2>
             <h2 className='location'>Austin, TX</h2>
             <h2 className='companyInfo'>My main task at Oracle was to develop a script that collected telemetry data from an Oracle machine through 
