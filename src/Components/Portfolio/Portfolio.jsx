@@ -9,6 +9,7 @@ export default function Portfolio(){
             <br></br>
             <h2 className='company'>Amazon</h2>
             <h2 className='location'>Austin, TX</h2>
+            <h2 className='companyInfo'>Incoming Software Development Intern</h2>
             <br></br>
             <br></br>
             <h2 className='company'>Oracle</h2>
