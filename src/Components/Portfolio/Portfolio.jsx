@@ -17,7 +17,8 @@ export default function Portfolio(){
             an agent installed on all Oracle Issued Laptops and Personal Computers. The script was used by the Enterprise Engineering team to analyze 
             usage and see usage if a machine's specifications matched the user's needs. Also, I led the research for a subsection of the Oracle Cloud Infrastructures' 
             new endpoint management tool, which was created to cut costs for third-party software and create a centralized hub for endpoint management. The research involved 
-            a java framework called Helidon, which is used for micro profiling microservices and to develop internal micro profiling software instead of third-party software.</h2>
+            a java framework called Helidon, which is used for micro profiling microservices and to develop internal micro profiling software instead of third-party software.
+            </h2>
             <br></br>
             <br></br>
             <h2 className='company'>United Parcel Service (UPS)</h2>
