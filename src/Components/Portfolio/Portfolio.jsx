@@ -12,6 +12,11 @@ export default function Portfolio(){
             <h2 className='companyInfo'>Incoming Software Development Intern</h2>
             <br></br>
             <br></br>
+            <h2 className='company'>Colgate-Palmolive</h2>
+            <h2 className='location'>New Brunswick, NJ</h2>
+            <h2 className='companyInfo'>Incoming Spring Applications and Software Development Intern</h2>
+            <br></br>
+            <br></br>
             <h2 className='company'>Oracle</h2>
             <h2 className='location'>Austin, TX</h2>
             <h2 className='companyInfo'>My main task at Oracle was to develop a script that collected telemetry data from an Oracle machine through 
