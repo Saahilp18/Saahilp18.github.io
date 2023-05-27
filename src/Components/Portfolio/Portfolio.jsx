@@ -13,8 +13,10 @@ export default function Portfolio(){
             <br></br>
             <br></br>
             <h2 className='company'>Colgate-Palmolive</h2>
-            <h2 className='location'>New Brunswick, NJ</h2>
-            <h2 className='companyInfo'>Incoming Spring Applications and Software Development Intern</h2>
+            <h2 className='location'>Piscataway, NJ</h2>
+            <h2 className='companyInfo'>At Colgate, I developed an internal tool to automate the audit and management of users and employees. I restructured the output
+            of statistician reports for dental studies and strategically updated the GUI to make it more user friendly and accessible. In addition, I also created triggers on
+            various internal dashboards to update and conditionally display information. I'm excited to be returning in the Fall! </h2>
             <br></br>
             <br></br>
             <h2 className='company'>Oracle</h2>
