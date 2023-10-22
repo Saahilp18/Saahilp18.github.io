@@ -83,5 +83,24 @@
              padding-right: 5%;
          }
     }
- 
+
+    .rutgers{
+        display: flex;
+        justify-content: center;
+        align-items: center;     
+        width: 400px;
+        margin: 0 auto; /* Center horizontally using margin */
+
+        @include mobile{
+            width: 300px;
+        }
+    }
+
+    .sbhs{
+        display: flex;
+        justify-content: center;
+        align-items: center;     
+        width: 300px;
+        margin: 0 auto; /* Center horizontally using margin */
+    }
 }

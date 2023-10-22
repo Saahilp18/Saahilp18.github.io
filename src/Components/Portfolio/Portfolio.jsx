@@ -7,7 +7,11 @@ export default function Portfolio(){
         <div className="portfolio" id = "portfolio">
             <h1>Experiences</h1>
             <br></br>
-            <h2 className='company'>Amazon</h2>
+            <br></br>
+            <br></br>
+            <img className='amazon' src="assets/company_logos/amazon_logo.png" alt=""></img>
+            {/* <h2 className='company'>Amazon</h2> */}
+            <br></br>
             <h2 className='location'>Austin, TX</h2>
             <h2 className='companyInfo'>
                 At Amazon, I was a part of the Fulfillment Resource Optimization Group (FROG) team, whose
@@ -22,19 +26,28 @@ export default function Portfolio(){
             </h2>
             <br></br>
             <br></br>
-            <h2 className='company'>Colgate-Palmolive</h2>
+            <br></br>
+            <br></br>
+            <img className='colgate' src="assets/company_logos/colgate_logo.png" alt=""></img>
+            {/* <h2 className='company'>Colgate-Palmolive</h2> */}
+            <br></br>
             <h2 className='location'>Piscataway, NJ</h2>
             <h2 className='companyInfo'>
                 At Colgate, I developed an internal tool to automate the audit and management of users and employees. I restructured the output
                 of statistician reports for dental studies and strategically updated the GUI to make it more user friendly and accessible. In addition, I also created triggers on
-                various internal dashboards to update and conditionally display information. I'm excited to be returning in the Fall!
+                various internal dashboards to update and conditionally display information. I have also created a service to validate and update internal employee departments 
+                using the Veeva API, BigQuery API, and PostgreSQL.
             </h2>
             <br></br>
             <br></br>
-            <h2 className='company'>Oracle</h2>
+            <br></br>
+            <br></br>
+            <img className='oracle' src="assets/company_logos/oracle_logo.jpeg" alt=""></img>
+            {/* <h2 className='company'>Oracle</h2> */}
+            <br></br>
             <h2 className='location'>Austin, TX</h2>
             <h2 className='companyInfo'>
-                My main task at Oracle was to develop a script that collected telemetry data from an Oracle machine through 
+                At Oracle, I was tasked to develop a script that collected telemetry data from an Oracle machine through 
                 an agent installed on all Oracle Issued Laptops and Personal Computers. The script was used by the Enterprise Engineering team to analyze 
                 usage and see usage if a machine's specifications matched the user's needs. Also, I led the research for a subsection of the Oracle Cloud Infrastructures' 
                 new endpoint management tool, which was created to cut costs for third-party software and create a centralized hub for endpoint management. The research involved 
@@ -42,7 +55,11 @@ export default function Portfolio(){
             </h2>
             <br></br>
             <br></br>
-            <h2 className='company'>United Parcel Service (UPS)</h2>
+            <br></br>
+            <br></br>
+            <img className='ups' src="assets/company_logos/ups_logo.png" alt=""></img>
+            {/* <h2 className='company'>United Parcel Service (UPS)</h2> */}
+            <br></br>
             <h2 className='location'>Mahwah, NJ • June 2021 - May 2022</h2>
             <h2 className='companyInfo'>
                 At UPS, I utilized RSA Encryption to scale the encryption of 70 applications and their clear text passwords to
@@ -54,6 +71,9 @@ export default function Portfolio(){
              </h2>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
+            <img className='rutgers' src="assets/company_logos/rutgers_logo.png" alt=""></img>
             <h2 className='company'>Learning Assistant Program - Data Structures</h2>
             <h2 className='location'>Rutgers University • September 2021 - Present</h2>
             <h2 className='companyInfo'>

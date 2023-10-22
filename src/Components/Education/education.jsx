@@ -4,10 +4,14 @@ export default function education(){
     
     return (
         <div className="education" id = "education">
+        
             <h1>Education</h1>
             <br></br>
+            <br></br>
+            <br></br>
+            <img className='rutgers' src="assets/company_logos/rutgers_logo.png" alt=""></img>
             <h2 className="schoolHeader">Rutgers University</h2>
-            <h3 className="extra">B.S Computer Science • 2020-2023</h3>
+            <h3 className="extra">BS Computer Science • 2020-2023</h3>
             <h3 className="extra">GPA: 3.7/4.0</h3>
             <h3 className="courseWork">Relevant Computer Science Coursework:</h3>
             <h3 className="extraCoursework">Distributed Systems, Intro to Artificial Intelligence, Data Structures, Computer Algorithms, Computer Architecture, Discrete Structures I & II, Linear Algebra, Multivariable Calculus, Intro to Data Science </h3>
@@ -16,7 +20,7 @@ export default function education(){
             <br></br>
             <br></br>
             <br></br>
-
+            <img className='sbhs' src="assets/company_logos/vikings_logo.jpeg" alt=""></img>
             <h2 className="schoolHeader">South Brunswick Public High School</h2>
             <h3 className="extra">High School Diploma • 2016-2020</h3>
             <h3 className="extra">GPA: 4.2/4.0</h3>
